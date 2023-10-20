@@ -28,12 +28,13 @@ const AICLandingPage = () => {
         alt=""
         src="/bggradientimg3@2x.png"
       />
+      <FrameComponent />
       <section className="absolute h-[2.76%] w-[100.14%] top-[97.24%] right-[-0.07%] bottom-[0%] left-[-0.07%] bg-gray text-left text-5xl text-white font-sora">
         <div className="absolute top-[50px] left-[calc(50%_-_401px)] font-semibold">
           © 2023 All India Artificial Intelligence Council. All rights reserved.
         </div>
       </section>
-      <FrameComponent />
+      
       <section className="absolute h-[8.13%] w-[82.36%] top-[81.18%] right-[8.82%] bottom-[10.69%] left-[8.82%] text-center text-37xl text-gray font-sora">
         <div className="absolute top-[0px] left-[0px] rounded-xl bg-lightgray box-border w-[1186px] h-[412px] border-[2px] border-solid border-gray">
           <div className="absolute top-[64px] left-[calc(50%_-_364px)] flex flex-col items-center justify-start gap-[40px]">
@@ -166,7 +167,6 @@ const AICLandingPage = () => {
           Welcome to AI Council of India
         </h1>
       </div>
-      <Header />
     </div>
   );
 };
