@@ -10,19 +10,19 @@ const AICouncilContainer = () => {
         <CardContainer
           ellipse1539="/ellipse-1539@2x.png"
           sankalpPatidar="Sankalp Patidar"
-          iITKharagpurPresident="IIT Kharagpur - President"
+          iITKharagpurPresident=""
         />
         <CardContainer
           ellipse1539="/ellipse-1540@2x.png"
           sankalpPatidar="Viren Inaniyan"
-          iITKharagpurPresident="IIT Bombay - Vice-President"
+          iITKharagpurPresident=""
           propWidth="291px"
           propWidth1="379px"
         />
         <CardContainer
           ellipse1539="/ellipse-1541@2x.png"
           sankalpPatidar="Sparsh Agrawal"
-          iITKharagpurPresident="IIT Bombay - Vice-President"
+          iITKharagpurPresident=""
           propWidth="291px"
           propWidth1="unset"
         />

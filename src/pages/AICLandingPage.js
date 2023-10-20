@@ -28,7 +28,6 @@ const AICLandingPage = () => {
         alt=""
         src="/bggradientimg3@2x.png"
       />
-      <section className="absolute h-[calc(100%_-_3629px)] w-[calc(100%_+_4866px)] top-[6301px] right-[-4864px] bottom-[-2672px] left-[-2px] [transform:_rotate(-90deg)] [transform-origin:0_0] bg-[url('/public/noise@2x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-overlay" />
       <section className="absolute h-[2.76%] w-[100.14%] top-[97.24%] right-[-0.07%] bottom-[0%] left-[-0.07%] bg-gray text-left text-5xl text-white font-sora">
         <div className="absolute top-[50px] left-[calc(50%_-_401px)] font-semibold">
           © 2023 All India Artificial Intelligence Council. All rights reserved.
