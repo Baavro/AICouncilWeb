@@ -4,6 +4,7 @@ const CardContainer = ({
   ellipse1539,
   sankalpPatidar,
   iITKharagpurPresident,
+  linkedIn,
   propWidth,
   propWidth1,
 }) => {
@@ -32,7 +33,10 @@ const CardContainer = ({
         </div>
         <div className="relative text-xl font-medium" style={iITKharagpurStyle}>
           {iITKharagpurPresident}
+        <div className="relative text-xl font-medium" style={iITKharagpurStyle}>
+          <a href={linkedIn}>LinkedIn</a>
         </div>
+      </div>
       </div>
     </div>
   );

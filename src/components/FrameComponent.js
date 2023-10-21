@@ -14,9 +14,9 @@ const FrameComponent = () => {
             alt=""
             src="/majesticonsmailline.svg"
           />
-          <b className="relative [text-decoration:underline] leading-[150.02%]">
-            contact@aiaic.org
-          </b>
+          <a href=""><b className="relative [text-decoration:underline] leading-[150.02%]">
+            contact@ai-council.in
+          </b></a>
         </div>
       </div>
     </section>
