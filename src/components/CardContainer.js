@@ -21,19 +21,19 @@ const CardContainer = ({
   }, [propWidth1]);
 
   return (
-    <div className="flex flex-col max-sm:min-w-[333px] items-center justify-start gap-[24px] max-sm:gap-5 text-center text-13xl text-gray font-sora p-2">
+    <div className="flex flex-col max-lg:min-w-[333px] items-center justify-start lg:gap-[24px] max-lg:gap-5 text-center text-13xl text-gray font-sora p-2">
       <img
         className="relative rounded-[50%] w-[182px] h-[182px] object-cover"
         alt=""
         src={ellipse1539}
       />
-      <div className="flex flex-col items-center justify-start gap-[8px] max-sm:gap-1">
-        <div className="relative font-extrabold max-sm:text-[16px]" style={sankalpPatidarStyle}>
+      <div className="flex flex-col items-center justify-start gap-[8px] max-lg:gap-1">
+        <div className="relative font-extrabold max-lg:text-[16px]" style={sankalpPatidarStyle}>
           {sankalpPatidar}
         </div>
-        <div className="relative text-xl font-medium max-sm:text-[14px]" style={iITKharagpurStyle}>
+        <div className="relative text-xl font-medium max-lg:text-[14px]" style={iITKharagpurStyle}>
           {iITKharagpurPresident}
-        <div className="relative text-xl font-medium max-sm:text-[14px]" style={iITKharagpurStyle}>
+        <div className="relative text-xl font-medium max-lg:text-[14px]" style={iITKharagpurStyle}>
           <a href={linkedIn}>LinkedIn</a>
         </div>
       </div>

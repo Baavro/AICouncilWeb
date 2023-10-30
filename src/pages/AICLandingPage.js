@@ -14,12 +14,12 @@ const AICLandingPage = () => {
   return (
     <div className="relative bg-whitesmoke-100 h-[5069px] overflow-hidden text-center text-37xl text-gray font-sora">
       <img
-        className="absolute w-[calc(100%_-_954px)] top-[0px] right-[0px] left-[954px] max-w-full overflow-hidden h-[862.62px] object-cover opacity-[0.7] max-sm:hidden"
+        className="absolute w-[calc(100%_-_954px)] max-lg:w-[calc(100%_-_454px)] top-[0px] right-[0px] lg:left-[954px] max-w-full overflow-hidden h-[862.62px] object-cover opacity-[0.7] max-sm:hidden"
         alt=""
         src="/bggradientimg@2x.png"
       />
       <img
-        className="absolute w-[calc(100%_-_980.62px)] top-[81px] right-[980.62px] left-[0px] max-w-full overflow-hidden h-[1015.6px] object-cover opacity-[0.6] max-sm:hidden"
+        className="absolute w-[calc(100%_-_980.62px)] max-lg:w-[calc(100%_-_380px)] top-[81px] lg:right-[980.62px] left-[0px] max-w-full overflow-hidden h-[1015.6px] object-cover opacity-[0.6] max-sm:hidden"
         alt=""
         src="/bggradientimg1@2x.png"
       />
@@ -36,12 +36,12 @@ const AICLandingPage = () => {
         />
       </div>
       <img
-        className="absolute w-[calc(100%_-_943px)] top-[3984px] right-[0px] left-[943px] max-w-full overflow-hidden h-[1009.46px] object-cover opacity-[0.6] max-sm:hidden"
+        className="absolute w-[calc(100%_-_943px)] max-lg:w-[calc(100%_-_454px)] top-[3984px] right-[0px] lg:left-[943px] max-w-full overflow-hidden h-[1009.46px] object-cover opacity-[0.6] max-sm:hidden"
         alt=""
         src="/bggradientimg2@2x.png"
       />
       <img
-        className="absolute w-[calc(100%_-_953.62px)] top-[2968px] right-[953.62px] left-[0px] max-w-full overflow-hidden h-[1015.6px] object-cover opacity-[0.6] max-sm:hidden"
+        className="absolute w-[calc(100%_-_953.62px)] max-lg:w-[calc(100%_-_394px)] top-[2968px] lg:right-[953.62px] left-[0px] max-w-full overflow-hidden h-[1015.6px] object-cover opacity-[0.6] max-sm:hidden"
         alt=""
         src="/bggradientimg3@2x.png"
       />

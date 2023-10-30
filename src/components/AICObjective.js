@@ -4,14 +4,14 @@ import 'simplebar/dist/simplebar.min.css';
 
 function AICObjective() {
   return (
-    <section className="absolute h-[14.36%] max-sm:h-[10.36%] w-[100.14%] top-[29.43%] right-[-0.07%] bottom-[56.2%] left-[-0.07%] bg-gray text-center text-37xl text-white font-sora max-sm:flex max-sm:flex-col max-sm:justify-around max-sm:items-center">
-      <h2 className="m-0 absolute top-[128px] left-[calc(50%_-_182px)] text-inherit max-sm:text-[24px] leading-[150.02%] max-sm:leading-[24px] font-extrabold font-inherit max-sm:hidden">
+    <section className="absolute h-[14.36%] max-lg:h-[10.36%] w-[100.14%] top-[29.43%] right-[-0.07%] bottom-[56.2%] left-[-0.07%] bg-gray text-center text-37xl text-white font-sora max-lg:flex max-lg:flex-col max-lg:justify-around max-lg:items-center">
+      <h2 className="m-0 absolute top-[128px] left-[calc(50%_-_182px)] text-inherit max-lg:text-[24px] leading-[150.02%] max-lg:leading-[24px] font-extrabold font-inherit max-lg:hidden">
         Our objective
       </h2>
-      <h2 className="m-0 relative text-inherit leading-[150.02%] max-sm:leading-[24px] max-sm:text-[24px] font-extrabold font-inherit md:hidden">
+      <h2 className="m-0 relative text-inherit leading-[150.02%] max-lg:leading-[24px] max-lg:text-[24px] font-extrabold font-inherit lg:hidden">
         Our objective
       </h2>
-      <div className="absolute top-[260px] left-[131px] w-[1183px] h-[340px] text-left text-13xl max-sm:hidden">
+      <div className="absolute top-[260px] left-[131px] w-[1183px] h-[340px] text-left text-13xl max-lg:hidden">
         <div className="absolute top-[0px] left-[403px] rounded-xl bg-whitesmoke-200 w-[380px] h-[340px]" />
         <div className="absolute top-[0px] left-[0px] rounded-xl bg-whitesmoke-200 w-[386px] h-[340px]" />
         <div className="absolute top-[0px] left-[803px] rounded-xl bg-whitesmoke-200 w-[380px] h-[340px]" />
@@ -41,7 +41,7 @@ function AICObjective() {
         </div>
       </div>
       <div
-        className="relative w-full text-left max-sm:block max-w-full h-min overflow-x-auto md:hidden py-4"
+        className="relative w-full text-left max-lg:block max-w-full h-min overflow-x-auto lg:hidden py-4"
         data-simplebar
       >
         <div className="flex">
