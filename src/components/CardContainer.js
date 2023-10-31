@@ -21,19 +21,19 @@ const CardContainer = ({
   }, [propWidth1]);
 
   return (
-    <div className="flex flex-col items-center justify-start gap-[24px] text-center text-13xl text-gray font-sora">
+    <div className="flex flex-col max-lg:min-w-[333px] items-center justify-start lg:gap-[24px] max-lg:gap-5 text-center text-13xl text-gray font-sora p-2">
       <img
         className="relative rounded-[50%] w-[182px] h-[182px] object-cover"
         alt=""
         src={ellipse1539}
       />
-      <div className="flex flex-col items-center justify-start gap-[8px]">
-        <div className="relative font-extrabold" style={sankalpPatidarStyle}>
+      <div className="flex flex-col items-center justify-start gap-[8px] max-lg:gap-1">
+        <div className="relative font-extrabold max-lg:text-[16px]" style={sankalpPatidarStyle}>
           {sankalpPatidar}
         </div>
-        <div className="relative text-xl font-medium" style={iITKharagpurStyle}>
+        <div className="relative text-xl font-medium max-lg:text-[14px]" style={iITKharagpurStyle}>
           {iITKharagpurPresident}
-        <div className="relative text-xl font-medium" style={iITKharagpurStyle}>
+        <div className="relative text-xl font-medium max-lg:text-[14px]" style={iITKharagpurStyle}>
           <a href={linkedIn}>LinkedIn</a>
         </div>
       </div>
